@@ -33,62 +33,53 @@
 		});
 
 		// 自动旋转
-        // time = setInterval(function(){
-         //    // var dataTab= $('.itemDot.active').data("tab");
-         //    // if(dataTab>10||i>10){
-         //    // dataTab=1;
-         //    // i=1;
-         //    // }
-         //    // $('.itemDot').removeClass('active');
-         //    // $('[data-tab="'+i+'"]').addClass('active');
-         //    // $('.CirItem').removeClass('active');
-         //    // $( '.CirItem'+i).addClass('active');
-         //    // i++;
-        //
-         //    $('.itemDot').css({
-         //        "transform":"rotate("+(-i*0.2)+"deg)",
-         //        // "transition":"1s"
-         //    });
-         //    $('.dotCircle').css({
-         //        "transform":"rotate("+(i*0.2)+"deg)",
-         //        // "transition":"2s"
-         //    });
-        //
-        //
-         //    i++;
-        // }, 50);
+        time = setInterval(function(){
+            // var dataTab= $('.itemDot.active').data("tab");
+            // if(dataTab>10||i>10){
+            // dataTab=1;
+            // i=1;
+            // }
+            // $('.itemDot').removeClass('active');
+            // $('[data-tab="'+i+'"]').addClass('active');
+            // $('.CirItem').removeClass('active');
+            // $( '.CirItem'+i).addClass('active');
+            // i++;
+
+            $('.itemDot').css({
+                "transform":"rotate("+(-i*0.2)+"deg)",
+                // "transition":"1s"
+            });
+            $('.dotCircle').css({
+                "transform":"rotate("+(i*0.2)+"deg)",
+                // "transition":"2s"
+            });
+
+
+            i++;
+        }, 50);
 		
 		// 点击事件
 		$('.itemDot').click(function(){
 
-			var dataTab= $(this).data("tab"); //小图标编号
-			i=dataTab;
-            switch(i)
-            {
-                case 1:
-                    window.open('https://msu.edu/~tiandong');
-                    break;
-                case 2:
-                    window.open('https://blog.seisman.info');
-                    break;
-                case 3:
-                    window.open('https://msu.edu/~tiandong');
-                    break;
-                case 4:
-                    window.open('https://msu.edu/~tiandong');
-                    break;
-                case 5:
-                    window.open('https://msu.edu/~tiandong');
-                    break;
-                case 6:
-                    window.open('https://msu.edu/~tiandong');
-                    break;
-                default:
-                    break;
-            }
+			// var dataTab= $(this).data("tab"); //小图标编号
+			// $('.itemDot').removeClass('active');
+			// $(this).addClass('active');
+			// // $('.CirItem').removeClass('active');
+			// // $( '.CirItem'+ dataTab).addClass('active');
+			// i=dataTab;
+            // console.log("rotate("+(360-(i-1)*60)+"deg)");
+            //
+			// $('.dotCircle').css({
+			// 	"transform":"rotate("+(360-(i-1)*60)+"deg)",
+			// 	"transition":"2s"
+			// });
+			// $('.itemDot').css({
+			// 	"transform":"rotate("+((i-1)*60)+"deg)",
+			// 	"transition":"2s"
+			// });
+
 		});
 
-        // 悬停事件
         $('.itemDot').hover(function(){
         	clearInterval(time);
 		},function(){

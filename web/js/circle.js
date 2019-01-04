@@ -33,30 +33,30 @@
 		});
 
 		// 自动旋转
-        // time = setInterval(function(){
-         //    // var dataTab= $('.itemDot.active').data("tab");
-         //    // if(dataTab>10||i>10){
-         //    // dataTab=1;
-         //    // i=1;
-         //    // }
-         //    // $('.itemDot').removeClass('active');
-         //    // $('[data-tab="'+i+'"]').addClass('active');
-         //    // $('.CirItem').removeClass('active');
-         //    // $( '.CirItem'+i).addClass('active');
-         //    // i++;
-        //
-         //    $('.itemDot').css({
-         //        "transform":"rotate("+(-i*0.2)+"deg)",
-         //        // "transition":"1s"
-         //    });
-         //    $('.dotCircle').css({
-         //        "transform":"rotate("+(i*0.2)+"deg)",
-         //        // "transition":"2s"
-         //    });
-        //
-        //
-         //    i++;
-        // }, 50);
+        time = setInterval(function(){
+            // var dataTab= $('.itemDot.active').data("tab");
+            // if(dataTab>10||i>10){
+            // dataTab=1;
+            // i=1;
+            // }
+            // $('.itemDot').removeClass('active');
+            // $('[data-tab="'+i+'"]').addClass('active');
+            // $('.CirItem').removeClass('active');
+            // $( '.CirItem'+i).addClass('active');
+            // i++;
+
+            $('.itemDot').css({
+                "transform":"rotate("+(-i*0.2)+"deg)",
+                // "transition":"1s"
+            });
+            $('.dotCircle').css({
+                "transform":"rotate("+(i*0.2)+"deg)",
+                // "transition":"2s"
+            });
+
+
+            i++;
+        }, 50);
 		
 		// 点击事件
 		$('.itemDot').click(function(){
@@ -72,16 +72,16 @@
                     window.open('https://blog.seisman.info');
                     break;
                 case 3:
-                    window.open('https://msu.edu/~tiandong');
+                    window.open('https://wiki.seisman.info');
                     break;
                 case 4:
-                    window.open('https://msu.edu/~tiandong');
+                    window.open('https://link.seisman.info');
                     break;
                 case 5:
-                    window.open('https://msu.edu/~tiandong');
+                    window.open('https://github.com/seisman');
                     break;
                 case 6:
-                    window.open('https://msu.edu/~tiandong');
+                    window.open('mailto:seisman.info@gmail.com');
                     break;
                 default:
                     break;

@@ -276,6 +276,21 @@
 		/*box-shadow: 0px 0px 69px 1px #242488;*/
 		margin: auto;
 	}
+	.contentCircle2{
+		width: 500px;
+		height: 250px;
+		border-radius: 100%;
+		/*background: url(../img/favicon.png) no-repeat;*/
+		background-size: cover;
+		color: #ffffff;
+		position: relative;
+		top: 130px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		/*box-shadow: 0px 0px 69px 1px #242488;*/
+		margin: auto;
+	}
 	
 	.contentCircle .CirItem{
 		border-radius: 100%;

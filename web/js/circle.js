@@ -66,22 +66,28 @@
             switch(i)
             {
                 case 1:
-                    window.open('https://msu.edu/~tiandong');
+                    window.open('./html/Academic.html');
+                    // window.open('./html/developing.html');
                     break;
                 case 2:
-                    window.open('https://blog.seisman.info');
+                    // window.open('https://blog.seisman.info');
+                    window.open('./html/developing.html');
                     break;
                 case 3:
-                    window.open('https://wiki.seisman.info');
+                    // window.open('https://wiki.seisman.info');
+                    window.open('./html/developing.html');
                     break;
                 case 4:
-                    window.open('https://link.seisman.info');
+                    // window.open('https://link.seisman.info');
+                    window.open('./html/developing.html');
                     break;
                 case 5:
-                    window.open('https://github.com/seisman');
+                    window.open('https://github.com/GeoKylin');
+                    // window.open('./html/developing.html');
                     break;
                 case 6:
-                    window.open('mailto:seisman.info@gmail.com');
+                    window.open('mailto:wangkai185@mails.ucas.edu.cn');
+                    // window.open('./html/developing.html');
                     break;
                 default:
                     break;

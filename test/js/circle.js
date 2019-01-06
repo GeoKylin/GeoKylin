@@ -66,8 +66,8 @@
             switch(i)
             {
                 case 1:
-                    // window.open('./html/Academic.html');
-                    window.open('./html/developing.html');
+                    window.open('./html/Academic.html');
+                    // window.open('./html/developing.html');
                     break;
                 case 2:
                     // window.open('https://blog.seisman.info');
@@ -82,12 +82,12 @@
                     window.open('./html/developing.html');
                     break;
                 case 5:
-                    // window.open('https://github.com/GeoKylin');
-                    window.open('./html/developing.html');
+                    window.open('https://github.com/GeoKylin');
+                    // window.open('./html/developing.html');
                     break;
                 case 6:
-                    // window.open('mailto:wangkai185@mails.ucas.edu.cn');
-                    window.open('./html/developing.html');
+                    window.open('mailto:wangkai185@mails.ucas.edu.cn');
+                    // window.open('./html/developing.html');
                     break;
                 default:
                     break;

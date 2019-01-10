@@ -71,15 +71,15 @@
                     break;
                 case 2:
                     // window.open('https://blog.seisman.info');
-                    window.open('./html/developing.html');
+                    window.open('./blog/');
                     break;
                 case 3:
                     // window.open('https://wiki.seisman.info');
-                    window.open('./html/developing.html');
+                    window.open('./wiki/');
                     break;
                 case 4:
                     // window.open('https://link.seisman.info');
-                    window.open('./html/developing.html');
+                    window.open('./links/');
                     break;
                 case 5:
                     window.open('https://github.com/GeoKylin');
